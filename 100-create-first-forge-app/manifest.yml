@@ -1,0 +1,14 @@
+modules:
+  function:
+    - key: my-function
+      handler: index.listener
+  webtrigger:
+    - key: my-webtrigger
+      function: my-function
+app:
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/740a0df5-61cc-4ad2-a52e-56e06ff9bd33
+permissions:
+  scopes:
+    - read:jira-work

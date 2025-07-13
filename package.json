@@ -1,0 +1,25 @@
+{
+  "name": "first-forge-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alisha Robinson",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@forge/api": "^3.6.0",
+    "@forge/bridge": "^3.4.0",
+    "@forge/cli": "^9.3.0",
+    "@forge/events": "^0.8.35",
+    "@forge/kvs": "^1.0.0",
+    "@forge/react": "^10.2.0",
+    "@forge/resolver": "^1.5.33",
+    "openai": "^4.57.0"
+  }
+}
