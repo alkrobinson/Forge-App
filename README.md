@@ -1,2 +1,2 @@
 # Forge-App
-This is a forge app template for playground use
+This is a forge app template for playground use.
